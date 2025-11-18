@@ -1,5 +1,7 @@
 # GamingX
 Giao diện máy chơi game kèm giả lập cho Windows
+Tui đã có thể bán nó để lấy tiền nhưng tui không, vậy nên bạn có thể ủng hộ tui qua: https://ganknow.com/homii/tip
+
 # 🧩 Mục lục
 - [Tải xuống](#-tải-xuống)
 - [Cài đặt](#-cài-đặt)
@@ -18,16 +20,19 @@ Giao diện máy chơi game kèm giả lập cho Windows
 
 ---
 
-## ⚙️ Cài đặt
+# ⚙️ Cài đặt
 
 Giải nén thư mục vào **ổ C** (ví dụ: `C:\GamingX`).
-> ⚠️ **Lưu ý:** Nên đặt ở ổ C để tránh lỗi đường dẫn khi cấu hình giả lập và Steam.
+
+> ⚠️ **Lưu ý:**
+> - Nên đặt ở ổ C để tránh lỗi đường dẫn khi cấu hình giả lập và Steam.  
+> - Cài file `VC_redist.x64.exe` (có sẵn trong thư mục) để giả lập hoạt động ổn định. Bạn có thể xóa sau khi cài xong.
 
 ---
 
 ## 🕹️ Tuỳ chọn sử dụng
 
-Người dùng có thể chọn **dùng kèm Steam** hoặc **không dùng Steam** tuỳ nhu cầu.
+Bạn có thể chọn **dùng kèm Steam** hoặc **không dùng Steam** tuỳ theo nhu cầu.
 
 ---
 
@@ -41,14 +46,15 @@ Người dùng có thể chọn **dùng kèm Steam** hoặc **không dùng Steam
 
 #### Các bước:
 
-1. Tìm **shortcut của Steam** và bỏ vào thư mục `Menu`.
+. Tìm **shortcut của Steam** và bỏ vào thư mục `Menu` (thay thế file `steam.lnk` cũ).  
 2. Thêm **Playnite Fullscreen** trong `Menu` vào thư viện Steam:
-   - Mở Steam → Menu “Add a Non-Steam Game” → chọn `Playnite Fullscreen.lnk`.
-3. Tạo **shortcut của Playnite Fullscreen trong Steam** rồi bỏ **vào thư mục Menu** (thay thế 2 file cũ có sẵn).
+   - Steam → Add a Non-Steam Game → chọn `Playnite Fullscreen.lnk`.  
+   - Đổi tên shortcut trong Steam thành **Playnite Fullscreen**.
+3. Tạo **shortcut của Playnite Fullscreen trong Steam** rồi bỏ vào thư mục `Menu` (thay thế file cũ).  
 4. Thêm file **GamingX.lnk** vào **Task Scheduler**  
    - Chọn: `Run only when user is logged on`.
 
-> 💡 Mục tiêu: khi bật máy, hệ thống sẽ tự chạy Steam và Playnite Fullscreen ngay.
+> 💡 Mục tiêu: khi bật máy, hệ thống sẽ tự mở Steam và Playnite Fullscreen.
 
 ---
 
@@ -65,18 +71,18 @@ Là xong — khi khởi động máy, Playnite Fullscreen sẽ tự bật.
 
 ## 🎮 Thêm game & giả lập
 
-### Thêm game:
+### Thêm game
 Chỉ cần **chép file game vào thư mục `Games\PC`**.
 
-### Giả lập:
+### Giả lập
 - Mỗi giả lập có thư mục riêng trong `Games\Giả lập\Games`.  
 - File game giả lập cần được bỏ đúng chỗ tương ứng.
 
-### Thêm giả lập vào Playnite:
-1. Mở **Playnite** (chế độ Desktop).
-2. Chọn **Add Game → Scanners → chọn hệ máy bạn muốn**.  
-   - Mình đã tích hợp sẵn các scanner cho hệ phổ biến (NES, SNES, PS1, PS2, Switch...).
-3. Hệ thống sẽ **tự quét và thêm game vào Playnite**.
+### Thêm giả lập vào Playnite
+1. Mở **Playnite (chế độ Desktop)**.  
+2. Chọn **Add Game → Scanners → hệ máy bạn muốn**.  
+   - Đã tích hợp sẵn các scanner cho NES, SNES, PS1, PS2, Switch...  
+3. Hệ thống sẽ tự quét và thêm game vào Playnite.
 
 ---
 
