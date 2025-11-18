@@ -14,7 +14,7 @@ Giao diện máy chơi game kèm giả lập cho Windows
 ## 📦 Tải xuống
 
 1. Truy cập mục **[Releases](https://github.com/tên-github-của-bạn/tên-repo/releases)**.
-2. Tải bản mới nhất (**GamingX.0.1.zip**).
+2. Tải bản mới nhất.
 
 ---
 
