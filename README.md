@@ -86,7 +86,7 @@ Chỉ cần **chép file game vào thư mục `Games\PC`**.
 
 1. Mở thư mục `Intro`, chọn video bạn muốn làm màn hình mở đầu.
 2. Copy và dán video đó vào thư mục `Boost`.
-3. Đổi tên video thành **`Video.mp4`** (ghi đè lên video cũ nếu có).
+3. Đổi tên video thành **`Video.mp4`** (ghi đè lên video đang có).
 
 > 🎬 Video này sẽ phát trước khi mở Playnite Fullscreen.
 
