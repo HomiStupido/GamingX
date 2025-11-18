@@ -8,35 +8,20 @@ Giao diện máy chơi game kèm giả lập cho Windows
   - [Không dùng Steam](#2️⃣-không-dùng-steam)
 - [Thêm game & giả lập](#-thêm-game--giả-lập)
 - [Tuỳ chỉnh khởi động và theme](#-tuỳ-chỉnh-khởi-động-và-theme)
-- [Ảnh minh hoạ](#-ảnh-minh-hoạ)
 
 ---
 
 ## 📦 Tải xuống
 
 1. Truy cập mục **[Releases](https://github.com/tên-github-của-bạn/tên-repo/releases)**.
-2. Tải bản mới nhất (**Playnite_Custom_x.x.zip**).
-3. Giải nén thư mục vào **ổ C** (ví dụ: `C:\Playnite_Custom`).
-
-> ⚠️ **Lưu ý:** Nên đặt ở ổ C để tránh lỗi đường dẫn khi cấu hình giả lập và Steam.
+2. Tải bản mới nhất (**GamingX.0.1.zip**).
 
 ---
 
 ## ⚙️ Cài đặt
 
-Sau khi giải nén, bạn sẽ có cấu trúc thư mục như sau:
-
-C:\Playnite_Custom
-├── Playnite Fullscreen.lnk
-├── GamingX.lnk
-├── Menu
-├── Game
-├── Emulators
-├── Boost
-├── Intro
-└── ...
-
-yaml
+Giải nén thư mục vào **ổ C** (ví dụ: `C:\GamingX`).
+> ⚠️ **Lưu ý:** Nên đặt ở ổ C để tránh lỗi đường dẫn khi cấu hình giả lập và Steam.
 
 ---
 
